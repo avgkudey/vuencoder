@@ -1,0 +1,30 @@
+{
+  "name": "vuencoder",
+  "version": "1.0.0",
+  "description": "Vue Ncoder Laravel API Encryption Frontend Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avgkudey/vuencoder.git"
+  },
+  "keywords": [
+    "vuencoder",
+    "vue",
+    "encryption",
+    "axios",
+    "encrypt"
+  ],
+  "author": "avgk.udey@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avgkudey/vuencoder/issues"
+  },
+  "homepage": "https://github.com/avgkudey/vuencoder#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^4.0.0"
+  }
+}
