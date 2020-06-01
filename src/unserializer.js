@@ -1,4 +1,4 @@
-let unserialize = function (data) {
+let unserializer = function (data) {
     var $global = (typeof window !== 'undefined' ? window : global)
 
     var utf8Overhead = function (str) {
@@ -172,4 +172,4 @@ let unserialize = function (data) {
     return _unserialize((data + ''), 0)[2]
 }
 
-export default unserialize;
+export default unserializer;

@@ -1,17 +1,16 @@
 import axios from 'axios';
 import Ncoder from './ncoder';
+import NcoderX from './ncoderx';
 
-const VueNcoder = (key) => {
+const VueNcoder = (key, encrypt = true) => {
     return {
         install(Vue, options) {
             const settings = options ? options : {};
-            Vue.prototype.$ncoder = axios.create(settings);
+            let axiosInstance = axios.create(settings);
+            window.axios = NcoderX(key).handle(axiosInstance);
 
-            let instance = axios.create(settings);
-            Vue.prototype.$cryptonite = Ncoder(key).encrypt(instance);
-            Vue.prototype.$ncoders = instance;
-
-            console.log('vue ncoder')
+            let ncoderInstance = axios.create(settings);
+            window.ncoder = Ncoder(key, encrypt).handle(ncoderInstance);
         }
     }
 };
