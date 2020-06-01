@@ -1,5 +1,5 @@
 {
-    "name": "@avgkudey/vuencoder",
+    "name": "vuencoder",
     "version": "1.0.0",
     "description": "Vue Ncoder Laravel API Encryption Frontend Package",
     "license": "MIT",
@@ -12,6 +12,7 @@
         "encrypt",
         "avgkudey"
     ],
+    "author": "avgk.udey@gmail.com",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/avgkudey/vuencoder.git"
