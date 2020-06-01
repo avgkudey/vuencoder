@@ -43,7 +43,7 @@ const app = new Vue({
 ```
 
 ### Example
-####Send Request
+**Send Request**
   ```javascript
 ncoder.post('auth/login', this.loginForm).then((response) => {
                 // Success
@@ -57,10 +57,11 @@ ncoder.get('auth/user').then((response) => {
                 // Error
                 });
 ```
-####Set Headers
+**Set Headers**
   ```javascript
 ncoder.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 ```
 ## Credits
 
 - [All Contributors][link-contributors]
+[link-contributors]: ../../contributors
