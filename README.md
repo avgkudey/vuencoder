@@ -3,7 +3,10 @@
    [![GitHub forks](https://img.shields.io/github/forks/avgkudey/vuencoder)](https://github.com/avgkudey/vuencoder/network)
    [![GitHub stars](https://img.shields.io/github/stars/avgkudey/vuencoder)](https://github.com/avgkudey/vuencoder/stargazers)
 
-    lorem ipsom
+    Vue Ncoder is a Axios Based Encryption package which encrypts API calls.
+    
+    This was created to work with Laravel Framework. 
+    
     
   ## Installation
   ```bash
@@ -63,5 +66,11 @@ ncoder.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 ```
 ## Credits
 
-- [All Contributors][link-contributors]
-[link-contributors]: ../../contributors
+- [Contributors](https://github.com/avgkudey/vuencoder/graphs/contributors)
+## Laravel Package
+
+- [Laravel Ncoder](https://github.com/avgkudey/laravel-ncoder)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
