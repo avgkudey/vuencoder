@@ -1,6 +1,6 @@
 {
     "name": "vuencoder",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Vue Ncoder Laravel API Encryption Frontend Package",
     "license": "MIT",
     "main": "index.js",
